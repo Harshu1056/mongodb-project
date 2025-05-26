@@ -1,0 +1,26 @@
+use students
+
+db.detail.insertMany([{_id:1, 
+name: "Laksmi", 
+subjects: [ "python" ], 
+marks: [ 75, 80, 90 ] 
+},{_id:2, 
+name: "Shifa Banu", 
+subjects: [ "c++", "java", "python" ], 
+marks: [ 95, 80 ] },{_id:3, 
+name: "Deepika", 
+subjects: [ "csharp", "perl" ], 
+marks: [ 91 ] 
+},{_id:4, 
+name: "Akash", 
+subjects: [ "php" ], 
+marks: [ 70, 80, 90] 
+}])
+
+#$Size operator
+db.detail.find({ marks: { $size: 3 } })
+
+#$where operation
+db.detail.find({
+  $where: "this.marks.length > 1"
+})

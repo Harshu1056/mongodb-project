@@ -1,0 +1,62 @@
+{  "_id ": 1 , 
+           "name" : "Anand Mishra",   
+           "Course" : "Btech",   
+           "batch_year" : 2018,   
+        "dob" : ISODate("2008-12-04"), 
+ "language" : ["c++", "java", "python"],   
+           "personal_details" :    
+                 {   
+ "Father_name" : "Deepak Mishra",   
+              "phone_no" : 8895321456,   
+                      "age" : 23,   
+                      "gender" : "Male",   
+                      "City" : "Lucknow",   
+                }        },{"_id" : 2,   
+           "name" : "Zoya Akram",   
+           "Course" : "BCA",   
+           "batch_year" : 2020,   
+      "dob" : ISODate("2002-11-14"), 
+   "language" : ["C#", "JavaScript"],   
+  "personal_details" :    
+                     {   
+   "Father_name" : "Ahmed Javed",   
+            "phone_no" : 9874563698,   
+                      "age" : 20,   
+                      "gender" : "Female",   
+                      "City" : "Hyderabad",  }},{      "_id" : 3,   
+        "name" : "Mahadevaswamy",   
+           "Course" : "MCA",   
+           "batch_year" : 2019,   
+      "dob" : ISODate("2004-05-24"), 
+ "language" : ["C#", "java", "PHP"],   
+           "personal_details" :    
+                     {   
+"Father_name" : "Nanjudaswamy",        "phone_no" : 7845123698,   
+                      "age" : 24,   
+                      "gender" : "Male",   
+                      "City" : "Bangalore",  }  },{"_id" : 4,   
+          "name" : "Priya Sawant",   
+           "Course" : "MTech",   
+           "batch_year" : 2017,   
+       "dob" : ISODate("2006-07-30"), 
+           "language" : ["c", "PHP"],   
+           "personal_details" :    
+                     {   
+  "Father_name" : "Ashok Sawant",   
+ "phone_no" : 9997845123,   
+                      "age" : 25,   
+                      "gender" : "Female",   
+                      "City" : "Mumbai",   
+                     } },{  "_id" : 5,   
+           "name" : "Ramya Gowda",   
+           "Course" : "Btech",   
+           "batch_year" : 2020,   
+           "dob" : ISODate("2008-08-16"), 
+           "language" : ["HTML", "CSS", "PHP"],   
+           "personal_details" :    
+                     {   
+                      "Father_name" : "Arjun Gowda",   
+                      "phone_no" : 6312547896,   
+                      "age" : 22,   
+                      "gender" : "Female",   
+                      "City" : "Bangalore"}}
